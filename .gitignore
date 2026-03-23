@@ -1,0 +1,15 @@
+# Project
+.venv/
+res/
+tpl/
+res
+
+# Node.js
+node_modules
+package*.json
+
+# MkDocs
+site/
+
+# ReadtheDocs
+html/

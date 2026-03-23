@@ -1,0 +1,34 @@
+INHERIT: tpl/cfg/mkdocs_base.yml
+
+docs_dir: src/en
+site_dir: site/en
+
+site_name: ECOS Studio
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
+edit_uri: edit/main/doc/src/en
+
+repo_url: https://github.com/openecos-projects/studio-doc
+repo_name: openecos-projects/studio-doc
+
+theme:
+  palette:
+  - scheme: default
+    primary: teal
+    accent: teal
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    primary: teal
+    accent: teal
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  language: en
+
+extra:
+  alternate:
+
+nav:
+  - Home: index.md
