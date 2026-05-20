@@ -1,1 +1,1 @@
-# ECOS Studio documentation
+# ECOS Studio Documentation
